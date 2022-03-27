@@ -1,36 +1,3 @@
-::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAnk
-::fBw5plQjdG8=
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSDk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSDk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAnk
-::YxY4rhs+aU+JeA==
-::cxY6rQJ7JhzQF1fEqQIGeVUELA==
-::ZQ05rAF9IBncCkqN+0xwdVtiHUrSXA==
-::ZQ05rAF9IAHYFVzEqQIRDDnRgvoFyKM/0XCZDT+b
-::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
-::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
-::cRolqwZ3JBvQF1fEqQI4PA9EX17Nc2yzEr0J6qb44OfIhUIcWLVqU6i7
-::dhA7uBVwLU+EWDk=
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATErBIbD3s=
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRnk
-::Zh4grVQjdCmDJNBFLcXL5pOakoxM/Vcy4k+aFCTHzu6F73kSW+4sRK7/+DFA3mfnIsAzsBPIATRfgM5s
-::YB416Ek+ZG8=
-::
-::
-::978f952a14a936cc963da21a135fa983
 @ECHO OFF
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c ""%~s0"" ::","","runas",1)(window.close)&&exit
 SET bat_name=ADB实用工具
