@@ -2,7 +2,7 @@
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c ""%~s0"" ::","","runas",1)(window.close)&&exit
 SET bat_name=ADB实用工具
 SET bat_auther=80KG
-SET bat_version=V1.0
+SET bat_version=V1.1
 SET bat_date=2022.3.26
 SET ADB_PATH=%~dp0/adb.exe
 SET BOOTLOADER_PATH=%~dp0/fastboot.exe
