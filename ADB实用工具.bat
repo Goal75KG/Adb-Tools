@@ -248,13 +248,13 @@ timeout /t 2 /nobreak >NUL
 7z x C:/ADB/platform-tools-latest-windows.zip -oC:/ADB
 ECHO 正在设置环境变量...
 timeout /t 2 /nobreak >NUL
-SETX /m path "%path%;"C:\ADB\platform-tools" 
+SETX /M path "%path%;"C:\ADB\platform-tools" 
 ECHO 正在清理缓存...
 DEL C:\ADB\platform-tools-latest-windows.zip
 ECHO 正在重启资源管理器...
 taskkill /f /im explorer.exe & start explorer.exe
 timeout /t 2 /nobreak >NUL
-ECHO 配置完成，返回上一级？
+ECHO 配置完成，重启电脑以应用更改。返回上一级？
 PAUSE >NUL
 GOTO MENU
 ::ADB_MANUAL
